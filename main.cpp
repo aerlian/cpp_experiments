@@ -1,7 +1,9 @@
 #include "operator_over_loading.h"
+#include "smart_pointer/smart.h"
 
 int main() {
-    OperatorOverloading();
+    //OperatorOverloading();
+    executeSmart();
 
     return 0;
 }

@@ -1,5 +1,5 @@
 //
-// Created by Stephen Rodgers on 12/19/21.
+// Created by aerlian on 12/19/21.
 //
 
 #ifndef UNTITLED_OPERATOR_OVER_LOADING_H

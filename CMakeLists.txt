@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled main.cpp operator_over_loading.cpp operator_over_loading.h smart_pointer/move/move_example.cpp smart_pointer/move/move_example.h)
+add_executable(untitled main.cpp operator_over_loading.cpp operator_over_loading.h smart_pointer/move/move_example.cpp smart_pointer/move/move_example.h smart_pointer/smart.cpp smart_pointer/smart.h)
