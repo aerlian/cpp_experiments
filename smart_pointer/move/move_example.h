@@ -9,15 +9,18 @@
 using namespace std;
 
 struct Dog {
-    const string name;
+    string name;
     ~Dog();
     Dog(const string name);
     Dog(const Dog& dog);
     Dog(Dog&& dog);
+
+    Dog& operator=(const Dog& other);
 };
 
 void executeMove();
 void takeDog(const Dog d);
+
 
 
 #endif //UNTITLED_MOVE_EXAMPLE_H
