@@ -10,10 +10,11 @@ using namespace std;
 
 struct Dog {
     const string name;
+    ~Dog();
     Dog(const string name);
+    Dog(const Dog& dog);
+    Dog(Dog&& dog);
 };
-
-Dog createDog();
 
 void executeMove();
 void takeDog(const Dog d);
